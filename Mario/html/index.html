@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Irmãos Mario</title>
+  </head>
+
+  <body>
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo irmãos mario">
+        <a>Home</a>
+        <a href="nossos-servicos.html">Nossos serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+    <div class="caixa-mae">
+      <div class="caixa-principal">
+        <img src="./img/logo.png" alt="logo mario bros" class="logo-mario" />
+        <p>
+          <strong><b>Irmãos Mario & Luigi</b></strong> - resolvendo seus
+          problemas com estilo!
+        </p>
+        <p>
+          Está sofrendo de problemas com a hidráulica da sua casa? Está sofrendo
+          de problemas hidráulicos na sua empresa? Suas torneiras não param de
+          pingar? Não se preocupe! Os irmãos Mario E Luigi estão aqui
+          diretamente do reino mágico dos cogumelos para <b>resolver</b> os seus
+          problemas!
+        </p>
+        <a href="https://contate.me/irmaos-mario" target="_blank" >
+            <img src="./img/whatsapp.png" alt="imagem do whatsapp" class="link-wpp"/>
+        
+        </a>
+        <button class="entre-em-contato" onclick= onform()>ENTRE EM CONTATO</button>
+      </div>
+      <div>
+        <img
+          src="./img/mario.png"
+          alt="logo mario e luigi"
+          class="mario-e-luigi"
+        />
+      </div>
+    </div>
+    <div class="video">
+      <video
+        src="./img/video.mp4"
+        alt="video de fundo mario e luigi"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="mascara"onclick ="esconderform()"></div>
+    </div>
+    <form class="fale-conosco"
+  action="https://formcarry.com/s/GfR-_9H51oC"
+  method="POST"
+  enctype="multipart/form-data">
+
+      <input placeholder="Seu nome" type="text"name="nome">
+      <input placeholder="Seu telefone" type="tel" name="telefone">
+      <textarea placeholder="Digite o que precisa aqui"></textarea>
+      <button type="submit">PEDIR ORÇAMENTO</button>
+    </form>
+  </body>
+  <script src="scripts.js"> </script>
+</html>
